@@ -16,7 +16,7 @@ jsproxy_config({
       label: '当前站点',
       lines: {
         [location.host]: 1,
-      }
+      },
     'cfworker': {
       label: 'cfworker',
       lines: {
