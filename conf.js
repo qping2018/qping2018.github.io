@@ -12,9 +12,13 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
+    'mysite': {
+      label: '当前站点',
+      lines: {
+        [location.host]: 1,
+      }
     'cfworker': {
       label: 'cfworker',
-      hidden: true,
       lines: {
         // 收费版（高权重）
         'jsp.qping2018.workers.dev': 1,
